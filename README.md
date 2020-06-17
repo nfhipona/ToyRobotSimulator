@@ -24,11 +24,11 @@ do `npm test`
 Input your command in the `commands.txt` file.
 
 The `Robot` will accept commands:
-`PLACE` with parameters - to place the robot on the table
-`MOVE` - to move 1 unit forward-facing
-`LEFT` - will turn the robot facing -90deg
-`RIGHT` - will turn the robot facing +90deg
-`REPORT` - will report robot's info
+- `PLACE` with parameters - to place the robot on the table
+- `MOVE` - to move 1 unit forward-facing
+- `LEFT` - will turn the robot facing -90deg
+- `RIGHT` - will turn the robot facing +90deg
+- `REPORT` - will report robot's info
 
 the format will be:
 
