@@ -4,7 +4,8 @@
   "description": "simulator",
   "main": "command.js",
   "scripts": {
-    "start": "node ./out/command.js"
+    "start": "node ./out/command.js",
+    "test": "mocha --timeout 150000 --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/nferocious76/ToyRobotSimulator#readme",
   "devDependencies": {
-    "@types/node": "^14.0.13"
+    "@types/node": "^14.0.13",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1",
+    "supertest": "^4.0.2"
   }
 }
