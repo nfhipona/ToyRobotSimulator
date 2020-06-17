@@ -1,4 +1,6 @@
 # ToyRobotSimulator
+My very first typescript project. 
+
 
 ## Prepare environment
 if you have not yet installed typescript
