@@ -1,0 +1,26 @@
+{
+  "name": "toy_robot_simulator",
+  "version": "1.0.0",
+  "description": "simulator",
+  "main": "command.js",
+  "scripts": {
+    "start": "node ./out/command.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nferocious76/ToyRobotSimulator.git"
+  },
+  "keywords": [
+    "Robot",
+    "Simulator"
+  ],
+  "author": "Neil Francis Ramirez Hipona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nferocious76/ToyRobotSimulator/issues"
+  },
+  "homepage": "https://github.com/nferocious76/ToyRobotSimulator#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.13"
+  }
+}
